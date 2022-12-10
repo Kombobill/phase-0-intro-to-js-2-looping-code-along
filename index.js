@@ -1,19 +1,21 @@
 // Code your solution here
-// Code your solutions in this file
-function writeCards (string, event){
-    var thisarray = []; 
-    for (let counter = 0; counter < string.length; counter++){ 
-        thisarray.push(`Thank you, ${string[counter]}, for the wonderful ${event} gift!`);
-      }
-    return thisarray;
-  }
-  function countDown(num){
-    
-    while (num >= 0)
-    {
-        console.log(num)
-        num--;
+function writeCards(string_name, event_name)
+{
+    var array_store = []; 
+    for (let counter = 0; counter < string_name.length; counter++)
+    {    
+        array_store.push(`Thank you, ${string_name[counter]}, for the wonderful ${event_name} gift!`);
+        
     }
-  }
-  
+    return array_store;
+}
 
+ function countDown(integer)
+ {
+    
+    while (integer >= 0)
+    {
+        console.log(integer)
+        integer--;
+    }
+ }ss
